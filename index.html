@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+      </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicativo do clima</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <form class="weatherForm">
+        <input type="text" class="cityInput" placeholder="Selecione a cidade">
+        <button type="submit">Buscar clima</button>
+    </form>
+
+    <div class="card">
+        <h1 class="cityDisplay">Miami</h1>
+        <p class="tempDisplay">90</p>
+        <p class="humidityDisplay">Humidade: 75%</p>
+        <p class="descDisplay">Céu limpo</p>
+        <p class="weatherEmoji">☀️</p>
+        <p class="errorDisplay">Por favor, selecione uma cidade!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
